@@ -1,0 +1,146 @@
+/* Paleta de colores SWAP Tech */
+:root {
+  --isabelline: #f9f5f2;
+  --rich-black: #131b29;
+  --air-force-blue: #548493;
+  --persian-green: #249f88;
+  --light-sea-green: #24b1ad;
+  --turquoise: #00e0d9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--isabelline);
+  color: var(--rich-black);
+}
+
+/* HEADER */
+header {
+  background-color: var(--rich-black);
+  color: var(--isabelline);
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+header .logo {
+  height: 50px;
+}
+
+nav a {
+  color: var(--isabelline);
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--turquoise);
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, var(--air-force-blue), var(--persian-green));
+  color: white;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--turquoise);
+  color: var(--rich-black);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: var(--light-sea-green);
+  color: white;
+}
+
+/* SERVICIOS */
+.services {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.service-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.service-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 2rem 1rem;
+}
+
+.service-card h3 {
+  color: var(--persian-green);
+}
+
+/* CONTACTO */
+.contact {
+  background: var(--air-force-blue);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+form {
+  max-width: 400px;
+  margin: 2rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  background: var(--turquoise);
+  color: var(--rich-black);
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--light-sea-green);
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  background: var(--rich-black);
+  color: var(--isabelline);
+  text-align: center;
+  padding: 1rem;
+}
